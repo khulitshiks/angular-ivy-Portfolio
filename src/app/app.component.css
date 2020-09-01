@@ -1,0 +1,70 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body,html {
+        color: wheat;
+        font-family: 'lato',sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 110vh;
+    }
+    body{
+        background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .center .avatar img{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        margin-top: 5%;
+        object-fit: cover;
+        object-position: 0 -8px;
+    }
+    .center{
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 80vh;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .content{
+        padding: 30px;
+
+    }
+    h1{
+        color: wheat;
+    }
+    .content h2,p{
+        font-weight: lighter;
+        letter-spacing: 1px;
+        width: 50%;
+        margin: 1px auto;
+    }
+    .content h2{
+        font-weight: 400;
+
+    }
+    .content h3{
+        margin-top: 20px;
+    }
+    div.home i{
+        padding: 0 10px;
+        font-size: 30px;
+        color: rgba(255,255,255,0.6);
+        transition: 0.4s;
+    }
+    div.social i{
+        padding: 0 10px;
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.342);
+        transition: 0.4s;
+    }
+    div.social i:hover{
+        color: rgba(255,255,255,1);
+        
+    }
